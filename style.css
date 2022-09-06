@@ -1,0 +1,46 @@
+h1{
+    margin-top: 2rem;
+    text-align: center;
+}
+main label{
+    font-size: large;
+    padding: 0.5rem;
+    margin: 1rem;
+    display: block;
+}
+main label input{
+    /* width: 20rem; */
+    outline: #fff;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-color: #bef264;
+}
+main{
+    text-align: center;
+}
+button{
+    background-color: #bef264;
+    border-radius: 1rem;
+    font-size: large;
+    border: none;
+    padding: 0.8rem;
+}
+#output-box{
+    margin-top: 2rem;
+    font-size: larger;
+}
+footer a{
+    font-size: large;
+    margin: 0.5rem;
+    text-decoration: none;
+    color:#4d7c0f;
+}
+footer{
+ padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
