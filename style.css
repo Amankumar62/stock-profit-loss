@@ -37,6 +37,9 @@ footer a{
     color:#4d7c0f;
 }
 footer{
+border-top-left-radius: 5rem;
+border-top-right-radius: 5rem;
+background-color: #bef264;
  padding: 1rem;
   position: fixed;
   left: 0;
