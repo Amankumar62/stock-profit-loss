@@ -7,6 +7,14 @@ var outputBox = document.querySelector('#output-box');
 
 
 function submitHandler(){
+    if(initialPrice.value.length ===0 ||stockQuantity.value.length===0 ||currentPrice.value.length === 0){
+        outputBox.innerText = "Please provide the values to compute profit/loss";
+        return;
+    }
+    if(Number(initialPrice.value) < 0 || Number(stockQuantity.value) < 0 ||Number(currentPrice.value) < 0 ){
+        outputBox.innerText = "Invalid input - Please provide positive input ";
+        return;
+    }
     var ip = Number(initialPrice.value);
     var qty = Number(stockQuantity.value);
     var curr = Number(currentPrice.value);
